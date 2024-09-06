@@ -1308,7 +1308,7 @@ function GetDistance(q)
 end
 
 ---------------SettingTab
-Tabs.infor:AddButton({
+Tabs.info:AddButton({
         Title = "Discord | AnDepZai Hub",
         Description = "Copy Link Discord",
         Callback = function()
