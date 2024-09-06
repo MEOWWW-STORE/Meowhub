@@ -1314,6 +1314,12 @@ Tabs.infor:AddButton({
         Callback = function()
         setclipboard("https://discord.com/invite/hpDn9ADPAs")
         end
+Tabs.infor:AddButton({
+        Title = "Discord | Meow Hub",
+        Description = "Copy Link Discord",
+        Callback = function()
+        setclipboard("https://discord.com/invite/hpDn9ADPAs")
+        end
     })
 ---------------TabStatus
 local BuonNaoDauAiThau = Tabs.Home:AddParagraph({
