@@ -30,7 +30,7 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-    infor = Window:AddTab({ Title = "Infor Hub", Icon = "" }),
+    info = Window:AddTab({ Title = "Info Hub", Icon = "" }),
     Home = Window:AddTab({ Title = "Status", Icon = "" }),
     Main = Window:AddTab({ Title = "Gerenal", Icon = "" }),
     item = Window:AddTab({ Title = "Item Farm", Icon = "" }),
