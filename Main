@@ -20,7 +20,7 @@ local fask = task
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "Meow Hub | by Meow",
+    Title = "Meow Hub | By Meow",
     SubTitle = "",
     TabWidth = 160,
     Size = UDim2.fromOffset(600, 325),
@@ -30,7 +30,7 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-    info = Window:AddTab({ Title = "Info Hub", Icon = "" }),
+    infor = Window:AddTab({ Title = "Infor Hub", Icon = "" }),
     Home = Window:AddTab({ Title = "Status", Icon = "" }),
     Main = Window:AddTab({ Title = "Gerenal", Icon = "" }),
     item = Window:AddTab({ Title = "Item Farm", Icon = "" }),
@@ -1309,10 +1309,10 @@ end
 
 ---------------SettingTab
 Tabs.infor:AddButton({
-        Title = "Discord | Meow Hub",
+        Title = "Discord | AnDepZai Hub",
         Description = "Copy Link Discord",
         Callback = function()
-        setclipboard("https://discord.com/invite/hpDn9ADPAs")
+        setclipboard("https://discord.com/invite/EV7vagx6CT")
         end
     })
 ---------------TabStatus
@@ -1382,9 +1382,9 @@ spawn(
             or game:GetService("Workspace").Enemies:FindFirstChild("Diablo") 
             or game:GetService("Workspace").Enemies:FindFirstChild("Deandre") 
             or game:GetService("Workspace").Enemies:FindFirstChild("Urban") then
-                ConMeMayThangWidiBuCacAnhDi:SetDesc("Ada")	
+                ConMeMayThangWidiBuCacAnhDi:SetDesc("Boss Xuat Hien")	
             else
-                ConMeMayThangWidiBuCacAnhDi:SetDesc("Tidak Ada")	
+                ConMeMayThangWidiBuCacAnhDi:SetDesc("Dell Co Boss")	
             end
         end
         )
@@ -1399,9 +1399,9 @@ local DaoNaoCac = Tabs.Home:AddParagraph({
 local function updateMirageStatus()
     local mirageIsland = game.Workspace._WorldOrigin.Locations:FindFirstChild('Mirage Island')
     if mirageIsland then
-        DaoNaoCac:SetDesc('Status: Ada')
+        DaoNaoCac:SetDesc('Status: Đảo Kìa Ra Bú Nhanh')
     else
-        DaoNaoCac:SetDesc('Status: Tidak Ada')
+        DaoNaoCac:SetDesc('Status: Đell Có Đảo')
     end
 end
 
@@ -1592,16 +1592,16 @@ LPH_JIT_MAX(function()
 	end)
 end)()
 
-local SelectFastAttackMode = (SelectFastAttackMode or "Meow Fast")
+local SelectFastAttackMode = (SelectFastAttackMode or "AnDepZai Fast")
 
-SelectedFastAttackMode = {"Normal Attack","Fast Attack","Meow Fast"}
+SelectedFastAttackMode = {"Normal Attack","Fast Attack","AnDepZai Fast"}
 
 local function ChangeModeFastAttack(SelectFastAttackMode)
 	if SelectFastAttackMode == "Normal Attack" then
 		FireCooldown = 0.1
 	elseif SelectFastAttackMode == "Fast Attack" then
 		FireCooldown = 0.07
-	elseif SelectFastAttackMode == "Meow Fast" then
+	elseif SelectFastAttackMode == "AnDepZai Fast" then
 		FireCooldown = 0.02
 	end
 end
@@ -4483,7 +4483,7 @@ end)
 if AnDepZai2 then
 Tabs.Raid:AddButton({
     Title = "Teleport To Raid",
-    Description = "",
+    Description = "Bay Đến Chỗ Raid",
     Callback = function()
      topos(CFrame.new(-6502.72559, 249.557404, -4477.06348))    
     end
@@ -4493,7 +4493,7 @@ end
 if AnDepZai3 then
 Tabs.Raid:AddButton({
     Title = "Teleport To Raid",
-    Description = "",
+    Description = "Bay Đến Chỗ Raid",
     Callback = function()
      topos(CFrame.new(-5023.18555, 314.859222, -2840.25366))        
     end
@@ -4744,7 +4744,7 @@ end)
 
 Tabs.Melee:AddButton({
     Title = "Buy Race Ghoul",
-    Description = "",
+    Description = "Mua Tộc Quỷ",
     Callback = function()
     local a = {
             [1] = "Ectoplasm",
@@ -4763,7 +4763,7 @@ Tabs.Melee:AddButton({
         
 Tabs.Melee:AddButton({
     Title = "Buy Race Cyrborg",
-    Description = "",
+    Description = "Mua Tộc Người Máy",
     Callback = function()
     local a = {
             [1] = "CyborgTrainer",
@@ -4826,7 +4826,7 @@ local Data =
 {
     ["embeds"] = {
         {
-            ["title"] = "Link | Account",
+            ["title"] = "Thông Tin | Account",
             ["url"] = "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId,
             ["description"] = "```"..game.Players.LocalPlayer.DisplayName.." ```",
             ["color"] = tonumber("0xf7c74b"),
