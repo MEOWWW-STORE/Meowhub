@@ -3958,7 +3958,7 @@ Tabs.Race:AddButton({
 
 Tabs.Race:AddButton({
     Title = "Teleport Install Gear",
-    Description = "Tween Đến Chỗ Gắn Gear",
+    Description = "",
     Callback = function()
     topos(CFrame.new(29539.582, 15068.6846, -86.7974472))
     end
