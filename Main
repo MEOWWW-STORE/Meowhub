@@ -3935,7 +3935,7 @@ end
 
 Tabs.Race:AddButton({
     Title = "Teleport To Great Tree",
-    Description = "Tween Đến Đảo Cây",
+    Description = "",
     Callback = function()
     topos(CFrame.new(28603.7305, 14896.5352, 105.38382))
     wait(.4)
@@ -3950,7 +3950,7 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 
 Tabs.Race:AddButton({
     Title = "Teleport Temple",
-    Description = "Tween Đến Cổng Temple",
+    Description = "",
     Callback = function()
        DaoKhiTrenCaoCuaAn()
     end 
@@ -3966,7 +3966,7 @@ Tabs.Race:AddButton({
 
           Tabs.Race:AddButton({
           Title = "Teleport To Race Door",
-          Description = "Tween Đến Cổng Race",
+          Description = "",
           Callback = function()
 	           if game:GetService("Players").LocalPlayer.Data.Race.Value == "Human" then
                 topos(CFrame.new(29221.822265625, 14890.9755859375, -205.99114990234375))
