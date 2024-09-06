@@ -1382,9 +1382,9 @@ spawn(
             or game:GetService("Workspace").Enemies:FindFirstChild("Diablo") 
             or game:GetService("Workspace").Enemies:FindFirstChild("Deandre") 
             or game:GetService("Workspace").Enemies:FindFirstChild("Urban") then
-                ConMeMayThangWidiBuCacAnhDi:SetDesc("✅")	
+                ConMeMayThangWidiBuCacAnhDi:SetDesc("Ada")	
             else
-                ConMeMayThangWidiBuCacAnhDi:SetDesc("❌")	
+                ConMeMayThangWidiBuCacAnhDi:SetDesc("Tidak Ada")	
             end
         end
         )
@@ -1399,9 +1399,9 @@ local DaoNaoCac = Tabs.Home:AddParagraph({
 local function updateMirageStatus()
     local mirageIsland = game.Workspace._WorldOrigin.Locations:FindFirstChild('Mirage Island')
     if mirageIsland then
-        DaoNaoCac:SetDesc('Status: ✅')
+        DaoNaoCac:SetDesc('Status: Ada')
     else
-        DaoNaoCac:SetDesc('Status: ❌')
+        DaoNaoCac:SetDesc('Status: Tidak Ada')
     end
 end
 
