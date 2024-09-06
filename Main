@@ -4858,11 +4858,6 @@ local Data =
                     ["inline"] = true 
                 },
                 {
-                    ["name"] = "Script Sampah:",
-                    ["value"] = "Yup 👍"
-                    ["inline"] = true 
-                },
-                {
                     ["name"] = "Ty For Use:",
                     ["value"] = "**__Meow Hub__**",
                     ["inline"] = true          
