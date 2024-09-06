@@ -30,7 +30,7 @@ local Window = Fluent:CreateWindow({
 })
 
 local Tabs = {
-    info = Window:AddTab({ Title = "Info Hub", Icon = "" }),
+    infor = Window:AddTab({ Title = "Infor Hub", Icon = "" }),
     Home = Window:AddTab({ Title = "Status", Icon = "" }),
     Main = Window:AddTab({ Title = "Gerenal", Icon = "" }),
     item = Window:AddTab({ Title = "Item Farm", Icon = "" }),
@@ -1308,7 +1308,7 @@ function GetDistance(q)
 end
 
 ---------------SettingTab
-Tabs.info:AddButton({
+Tabs.infor:AddButton({
         Title = "Discord | AnDepZai Hub",
         Description = "Copy Link Discord",
         Callback = function()
