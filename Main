@@ -1382,9 +1382,9 @@ spawn(
             or game:GetService("Workspace").Enemies:FindFirstChild("Diablo") 
             or game:GetService("Workspace").Enemies:FindFirstChild("Deandre") 
             or game:GetService("Workspace").Enemies:FindFirstChild("Urban") then
-                ConMeMayThangWidiBuCacAnhDi:SetDesc("✅")	
+                ConMeMayThangWidiBuCacAnhDi:SetDesc("Status: ✅")	
             else
-                ConMeMayThangWidiBuCacAnhDi:SetDesc("❌")	
+                ConMeMayThangWidiBuCacAnhDi:SetDesc("Status: ❌")	
             end
         end
         )
@@ -3113,7 +3113,7 @@ spawn(function()
     end
 end)
 
-local Toggle = Tabs.item:AddToggle("auto Kill", { Title = "Auto Rip_Indra", Description = "Chỉ Đánh Boss Và Chẳng Làm Đc Gì Nx", Default = false })
+local Toggle = Tabs.item:AddToggle("auto Kill", { Title = "Auto Rip_Indra", Description = "", Default = false })
 Toggle:OnChanged(function(Value)
 _G.ThangDauMatLon = Value
 StopTween(_G.ThangDauMatLon)
@@ -3335,7 +3335,7 @@ spawn(function()
         end
     end)
           
-local Toggle = Tabs.item:AddToggle("auto Change", { Title = "Auto Dough King + Farm Item", Description = "Tự Động Làm Hết", Default = false })
+local Toggle = Tabs.item:AddToggle("auto Change", { Title = "Auto Dough King + Farm Item", Description = "", Default = false })
 Toggle:OnChanged(function(Value)
 _G.Katakuri_V2_Nhu_lon = Value
 StopTween(_G.Katakuri_V2_Nhu_lon)
@@ -4744,7 +4744,7 @@ end)
 
 Tabs.Melee:AddButton({
     Title = "Buy Race Ghoul",
-    Description = "Mua Tộc Quỷ",
+    Description = "",
     Callback = function()
     local a = {
             [1] = "Ectoplasm",
@@ -4763,7 +4763,7 @@ Tabs.Melee:AddButton({
         
 Tabs.Melee:AddButton({
     Title = "Buy Race Cyrborg",
-    Description = "Mua Tộc Người Máy",
+    Description = "",
     Callback = function()
     local a = {
             [1] = "CyborgTrainer",
@@ -4826,7 +4826,7 @@ local Data =
 {
     ["embeds"] = {
         {
-            ["title"] = "Thông Tin | Account",
+            ["title"] = "Link | Account",
             ["url"] = "https://www.roblox.com/users/"..game.Players.LocalPlayer.UserId,
             ["description"] = "```"..game.Players.LocalPlayer.DisplayName.." ```",
             ["color"] = tonumber("0xf7c74b"),
